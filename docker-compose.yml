@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  ynfinite-demo:
+    build:
+      context: .
+      dockerfile: development/Dockerfile-apache
+    ports:
+      - 80:80
+    volumes:
+      - ./:/var/www
+      - /var/www/vendor

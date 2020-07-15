@@ -1,0 +1,8 @@
+.idea
+ynfinite-php-boilerplate.iml
+
+cache/*
+!cache/.gitkeep
+staticPages/*
+!staticPages/.gitkeep
+vendor
