@@ -1,0 +1,21 @@
+{% extends "yn/layout/index.twig" %}
+
+{% block head %}
+  {{ parent() }}
+<link href="/web/public/css/app.css" rel="stylesheet" />
+{% endblock head %}
+
+{% block body %}
+    {{header}}
+    <main class="site">
+        {{ parent() }}
+    </main>
+    {{footer}}
+    {{cookie_information}}
+    {{css}}
+{% endblock %}
+
+{% block footer_scripts %}
+    <script type="text/javascript" src="/web/public/js/app.js"></script>
+    {{ parent() }}
+{% endblock %}

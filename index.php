@@ -11,5 +11,5 @@ if($_SERVER['REQUEST_METHOD'] === 'GET' && YN_STATIC_PAGES) {
     }
 }
 */
-$app = YnfiniteClient::create('web/templates');
+$app = YnfiniteClient::create('web/demo/templates');
 $app->run();

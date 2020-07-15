@@ -1,8 +1,12 @@
 .idea
 ynfinite-php-boilerplate.iml
-
+development/node_modules
 cache/*
 !cache/.gitkeep
 staticPages/*
 !staticPages/.gitkeep
 vendor
+web/public/css/*
+!web/public/css/.gitkeep
+web/public/js/*
+!web/public/js/.gitkeep
